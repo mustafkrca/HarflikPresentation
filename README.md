@@ -14,15 +14,14 @@ Harflik, farklı kelimeler deneyerek harflerin konumuna göre yanan renge bakara
 </div>
 
 ## Özellikler
-- **Etkileyici Oynanış:** Eğlenceli ve interaktif bir şekilde gizli kelimeleri bulun.
-- **Günlük Meydan Okumalar:** Her gün yeni bulmacalar.
-- **Liderlik Tablosu:** Arkadaşlarınız ve dünya çapındaki oyuncularla rekabet edin.
-- **Başarılar:** İlerledikçe çeşitli başarıların kilidini açın.
-- **İpuçları:** Zor kelimeleri bulmanıza yardımcı olacak ipuçları.
-- **Reklam Entegrasyonu:** Kullanıcı deneyimini artıran sorunsuz reklam entegrasyonu.
-- **Bildirimler:** Zamanında bilgilendirmelerle haberdar olun.
-- **Animasyonlar:** Oyun deneyimini keyifli kılan pürüzsüz ve çekici animasyonlar.
-- **Firebase Entegrasyonu:** Gerçek zamanlı güncellemeler ve bulut işlevsellikleri.
+- **Zaman Modu:** Son 8 saniye aktif olan geri sayım sesi ve kazanınca,kaybedince gelen ses efekti ekledim.
+- **Kelime Optimizasyonu:** Çözülen Kelime bir daha aynı kullanıcıya sunulmuyor.
+- **Api Optimizasyonu:** Api den her seferinde 10 kelime çağrılarak 10 kelime bittiğinde tekrar istek atılması ile sürekli istek atmanın önüne geçtim.
+- **Reklamlar:** Uygulamaya Admob üzerinden reklam entegresi yaptım.
+- **İpuçları:** İpuçlar arasında harf yardımı ve kelimenin anlamını gösteren butonlar ekledim.
+- **Bildirimler:** Firebase Console entegresi ile anlık bildirim eklentisi yaptım.
+- **Animasyonlar:** Lottie üzerinden ve gifler ile entegre edilmiş animasyonlar
+
 
 ## Teknoloji Yığını
 
@@ -37,6 +36,9 @@ Harflik, farklı kelimeler deneyerek harflerin konumuna göre yanan renge bakara
 
 ### Veritabanı
 - **MongoDB:** Oyun verilerini (Kelime, Kelimenin Anlamı) depolamak için VDS sunucumda kuruludur.
+
+### Kelimeler
+- **Zemberek NLP:** Türkçe Doğal Dil işleme java kütüphanesi.
 
 ## İletişim
 Herhangi bir soru veya geri bildirim için lütfen ulaşın:
