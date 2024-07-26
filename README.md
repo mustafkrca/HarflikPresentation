@@ -23,7 +23,10 @@ Harflik, farklı kelimeler deneyerek harflerin konumuna göre yanan renge bakara
 - **Animasyonlar:** Lottie üzerinden ve gifler ile entegre edilmiş animasyonlar
 
 
-## Teknoloji Yığını
+## Geliştirme Süreci - Teknoloji Yığını
+
+### Kelimelerin Üretilmesi
+TDK'dan alınan yaklaşık 160.000 Türkçe kelime tek bir JSON dosyasına indirildi ve Zemberek NLP kütüphanesi kullanılarak işlendi. Kelimeler sıfat, fiil, isim olarak sınıflandırıldı ve isimlerden yaklaşık 8.000 adet kök elde edildi. Bu kelimeler 4, 5 ve 6 harfli olarak ayrıldı ve Python kullanılarak ayrı JSON dosyalarında saklandı. Ardından, Node.js kullanılarak TDK kütüphanesi ile bu kelimelerin anlamları bulundu ve tekrar JSON olarak oluşturuldu. Bu JSON dosyaları veritabanına aktarıldı.
 
 ### Frontend
 - **React Native:** Sorunsuz ve duyarlı bir mobil uygulama deneyimi.
