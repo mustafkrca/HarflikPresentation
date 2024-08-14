@@ -45,6 +45,7 @@ TDK'dan alınan yaklaşık 160.000 Türkçe kelime tek bir JSON dosyasına indir
 
 ## İletişim
 Herhangi bir soru veya geri bildirim için lütfen ulaşın:
+- Uygulama : https://shorturl.at/siSrD
 - Email: [mustafkrca@gmail.com](mailto:mustafkrca@gmail.com)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/mustafa-karaca-222804192/)
 
